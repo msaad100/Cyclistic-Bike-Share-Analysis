@@ -25,7 +25,7 @@ GROUP BY member_casual,
     END
 ORDER BY member_casual, trip_count DESC;
 
--- 3. Hourly Trip Volume
+-- Count rides by hour of day to identify Peak Commute Times
 SELECT 
     member_casual,
     DATEPART(HOUR, started_at) AS hour_of_day,
