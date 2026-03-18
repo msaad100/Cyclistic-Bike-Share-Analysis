@@ -1,29 +1,21 @@
 # Cyclistic-Bike-Share-Analysis
 Data analysis case study using SQL to compare annual members and casual riders.
-1. Project Title & Overview
-Heading: # Cyclistic Bike-Share Analysis: Case Study
-Content: > This project analyzes 12 months of historical trip data from Cyclistic, a fictional bike-share company in Chicago. The goal is to identify trends in how annual members and casual riders use the service differently to help design marketing strategies for converting casual riders into members.
+This project analyzes 12 months of historical trip data from Cyclistic, a fictional bike-share company in Chicago. The goal is to identify trends in how annual members and casual riders use the service differently to help design marketing strategies for converting casual riders into members.
 
 2. The Business Task
-Heading: ## Business Task
-Content:
 
 Primary Objective: How do annual members and casual riders use Cyclistic bikes differently?
 
 Key Stakeholders: Cyclistic Executive Team and Director of Marketing (Lily Moreno).
 
 3. Data Source & Structure
-Heading: ## Data Source
 Content:
 
 Dataset: Divvy Trip Data (December 2024 - November 2025).
 
 Data Scale: 12 monthly CSV files merged into a single SQL database containing 5.6 million rows.
 
-License: Data made available by Motivate International Inc. under this license.
-
 4. Technical Stack
-Heading: ## Tools Used
 Content:
 
 SQL Server (SSMS): Data ingestion, cleaning, and transformation.
@@ -33,8 +25,6 @@ GitHub: Version control and project documentation.
 Power BI / Tableau: (Add which one you choose later) for data visualization.
 
 5. Data Processing & Cleaning
-Heading: ## Data Cleaning & Transformation
-Content: (This is the "Proof" part where you show your logic).
 
 Step 1: Data Ingestion
 Merged 12 individual monthly tables using UNION ALL into a master table Combined_Trip_Data. Used SELECT INTO for efficient bulk data movement.
