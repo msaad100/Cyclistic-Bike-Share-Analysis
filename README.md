@@ -59,3 +59,5 @@ The Duration Gap: Casual riders average 23 minutes, while Members average 12 min
 The High-Value Segment: While most rides are short, 157,481 Casual trips exceeded 45 minutes (3x more than Members).
 
 Strategic Recommendation: Target these "Extreme" duration casual riders with a Tiered Annual Membership (e.g., a "1,000-minute annual pass") to provide a cheaper alternative to single-ride passes. This can be a good stragetic alternative to convert those casual riders into annual members
+
+Hourly analysis confirms a structural difference in usage: Members peak during 8 AM and 5 PM commute windows, while Casual ridership peaks gradually in the mid-afternoon (2 PM - 4 PM), supporting the transition to a leisure-focused membership tier.
