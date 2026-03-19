@@ -61,3 +61,21 @@ The High-Value Segment: While most rides are short, 157,481 Casual trips exceede
 Strategic Recommendation: Target these "Extreme" duration casual riders with a Tiered Annual Membership (e.g., a "1,000-minute annual pass") to provide a cheaper alternative to single-ride passes. This can be a good stragetic alternative to convert those casual riders into annual members
 
 Hourly analysis confirms a structural difference in usage: Members peak during 8 AM and 5 PM commute windows, while Casual ridership peaks gradually in the mid-afternoon (2 PM - 4 PM), supporting the transition to a leisure-focused membership tier.
+
+### 📊 Data Visualization & Behavioral Analysis
+![Cyclistic User Analysis Dashboard](images/cyclistic_analysis_dashboard.png)
+
+Key Findings:
+
+The Duration Gap: My analysis of trip categories shows that while Annual Members are frequent users, Casual riders dominate the 'Extreme' (>45 min) trip segment. This suggests Casuals use the service for long-duration leisure, while Members use it for utility.
+
+The Commuter Profile: The hourly trend lines confirm this. Annual Members show sharp usage spikes at 8:00 AM and 5:00 PM (the classic 9-to-5 commute). Casual ridership builds slowly, peaking in the afternoon without a morning spike, confirming a leisure-heavy user base.
+
+### 💡 Final Recommendations for the Marketing Team
+Based on the 5.4 million rows analyzed, I recommend the following strategy to convert Casual riders to Annual Members:
+
+Target the "Extreme" Riders: Create a marketing campaign specifically for users who take rides longer than 30 minutes. Highlight how much they would save in "overage fees" by switching to a flat annual membership.
+
+Morning Commuter Trial: Since Casual riders are missing from the 8:00 AM peak, offer a "Commuter Starter Pack" (e.g., 5 free morning rides for new members) to build the habit of using bikes for work.
+
+Afternoon Conversion Window: Digital ads and station kiosks should push membership offers between 3:00 PM and 5:00 PM, which is when Casual ridership is at its highest volume.
