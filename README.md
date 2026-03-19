@@ -63,7 +63,7 @@ Strategic Recommendation: Target these "Extreme" duration casual riders with a T
 Hourly analysis confirms a structural difference in usage: Members peak during 8 AM and 5 PM commute windows, while Casual ridership peaks gradually in the mid-afternoon (2 PM - 4 PM), supporting the transition to a leisure-focused membership tier.
 
 ### 📊 Data Visualization & Behavioral Analysis
-![Cyclistic User Analysis Dashboard](images/cyclistic_analysis_dashboard.png)
+![Cyclistic User Analysis Dashboard](cyclistic_analysis_dashboard.png)
 
 Key Findings:
 
