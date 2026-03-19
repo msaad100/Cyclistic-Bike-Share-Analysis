@@ -64,18 +64,19 @@ Hourly analysis confirms a structural difference in usage: Members peak during 8
 
 ### 📊 Data Visualization & Behavioral Analysis
 ![Cyclistic User Analysis Dashboard](cyclistic_analysis_dashboard.png)
+![WeekDay Comparison Report](WEEKDAY_COMPARISON_REPORT.png)
 
 Key Findings:
 
 The Duration Gap: My analysis of trip categories shows that while Annual Members are frequent users, Casual riders dominate the 'Extreme' (>45 min) trip segment. This suggests Casuals use the service for long-duration leisure, while Members use it for utility.
 
-The Commuter Profile: The hourly trend lines confirm this. Annual Members show sharp usage spikes at 8:00 AM and 5:00 PM (the classic 9-to-5 commute). Casual ridership builds slowly, peaking in the afternoon without a morning spike, confirming a leisure-heavy user base.
+The Commuter Profile: The hourly trend lines confirm this. Annual Members show sharp usage spikes at 8:00 AM and 5:00 PM (the classic 9-to-5 commute). Casual ridership builds slowly, peaking in the afternoon without a morning spike, confirming a leisure-heavy user base.The Spike on the graph for casual buyers during weekends also confirms the difference between the behaviours of casual and annual members.
 
 ### 💡 Final Recommendations for the Marketing Team
 Based on the 5.4 million rows analyzed, I recommend the following strategy to convert Casual riders to Annual Members:
 
 Target the "Extreme" Riders: Create a marketing campaign specifically for users who take rides longer than 30 minutes. Highlight how much they would save in "overage fees" by switching to a flat annual membership.
 
-Morning Commuter Trial: Since Casual riders are missing from the 8:00 AM peak, offer a "Commuter Starter Pack" (e.g., 5 free morning rides for new members) to build the habit of using bikes for work.
+Morning Commuter Trial: Since Casual riders are more active during weekends introducing only weekend passes can be a good approach to target those buyers and convert them.
 
 Afternoon Conversion Window: Digital ads and station kiosks should push membership offers between 3:00 PM and 5:00 PM, which is when Casual ridership is at its highest volume.
