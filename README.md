@@ -80,3 +80,15 @@ Target the "Extreme" Riders: Create a marketing campaign specifically for users 
 Morning Commuter Trial: Since Casual riders are more active during weekends introducing only weekend passes can be a good approach to target those buyers and convert them.
 
 Afternoon Conversion Window: Digital ads and station kiosks should push membership offers between 3:00 PM and 5:00 PM, which is when Casual ridership is at its highest volume.
+### 🛠️ Technical Challenges & Data Engineering
+Analyzing a dataset of this scale (5.4M+ rows) presented several "real-world" hurdles that required a structured SQL-first approach:
+
+The "Big Data" Memory Wall: Standard spreadsheet tools (Excel/Google Sheets) could not process the 5.4 million rows without crashing. I migrated the entire dataset into SQL Server (SSMS) to perform heavy-duty cleaning and aggregation, reducing the final output to a high-performance summary table.
+
+The CSV Delimiter Conflict: During the initial Tableau import, column data began "shifting" and mixing. I identified that internal commas and parentheses in my Ride_Category strings (e.g., Long (30-45 mins)) were being misinterpreted as delimiters.
+
+The Fix: I refactored the SQL CASE Statement to remove all special characters, simplifying categories to clean, alphanumeric strings. This ensured 100% data integrity during the export-to-import process.
+
+Data Type Mismatch: Tableau initially struggled to recognize the aggregated trip counts as numerical measures. I resolved this by explicitly casting the counts as INT in the final SQL view to ensure proper summation in the dashboard.
+
+Logical Filtering: The raw data contained "garbage" entries (trips with negative durations or test station names). I implemented a WHERE clause in SQL to filter out all trips under 60 seconds and those without valid station IDs, ensuring the final insights were based on genuine user behavior.
