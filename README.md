@@ -75,7 +75,13 @@ The Commuter Profile: The hourly trend lines confirm this. Annual Members show s
 ### 💡 Final Recommendations for the Marketing Team
 Based on the 5.4 million rows analyzed, I recommend the following strategy to convert Casual riders to Annual Members:
 
-Target the "Extreme" Riders: Create a marketing campaign specifically for users who take rides longer than 30 minutes. Highlight how much they would save in "overage fees" by switching to a flat annual membership.
+Target the "Extreme" Riders: Target high-duration casual riders (30+ minutes) through personalized marketing campaigns that highlight potential savings from reduced overage fees, encouraging transition toward membership plans.
+
+The "Minute-Bank" Entry Tier:Introduce a mid-tier membership model based on a capped annual minute allocation (e.g., 500–1000 minutes per year) targeted at high-duration casual riders.
+
+This segment demonstrates a clear mismatch with existing pricing structures—they incur high per-trip costs due to longer ride durations but may not engage frequently enough to justify a full annual membership.
+
+A “Minute-Bank” model reduces the financial friction of long rides while maintaining a lower commitment threshold, making it an effective transition point between pay-per-ride usage and full annual membership.
 
 Morning Commuter Trial: Since Casual riders are more active during weekends introducing only weekend passes can be a good approach to target those buyers and convert them.
 
