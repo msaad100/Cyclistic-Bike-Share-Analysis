@@ -21,7 +21,7 @@ SQL Server (SSMS): Data ingestion, cleaning, and transformation.
 
 GitHub: Version control and project documentation.
 
-Power BI / Tableau: (Add which one you choose later) for data visualization.
+Tableau:  for data visualization.
 
 ## Data Processing & Cleaning
 
